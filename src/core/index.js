@@ -8,7 +8,9 @@ import {
 import {
     FunctionalRenderContext
 } from 'core/vdom/create-functional-component'
-
+/***
+ * 设置全局的属性
+ */
 initGlobalAPI(Vue)
     //
 Object.defineProperty(Vue.prototype, '$isServer', {
